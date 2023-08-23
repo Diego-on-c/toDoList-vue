@@ -27,7 +27,7 @@ onBeforeMount(() => {
             <h4>Tasks List</h4>
             <ul>
                 <li v-for="(task, index) in tasks" :key="index">
-                    {{ task.tittle }}
+                    {{ task.title }}
                     <router-link :to="'/task/detail/' + task.id"> Details </router-link>
                     <router-link :to="'/tasks/' + task.id"> Edit </router-link>
                 </li>

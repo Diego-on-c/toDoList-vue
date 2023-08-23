@@ -38,7 +38,7 @@ onBeforeMount(() => {
         <form>
             <div>
                 <label>Title</label>
-                <input type="text" id="title" v-model="currentTask.tittle" />
+                <input type="text" id="title" v-model="currentTask.title" />
             </div>
             <div>
                 <label>Description</label>
