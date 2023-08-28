@@ -1,6 +1,6 @@
 <script setup>
 import TaskDataService from "../services/TaskDataService";
-import { reactive, onBeforeMount } from 'vue';
+import { reactive } from 'vue';
 
 
 const task = reactive({
@@ -23,10 +23,6 @@ function saveTask() {
         .catch(e => {
             console.log(e);
         });
-}
-
-function newtask() {
-    task = {};
 }
 
 </script>
